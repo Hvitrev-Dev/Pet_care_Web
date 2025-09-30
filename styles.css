@@ -1,19 +1,19 @@
-@import url('https://fonts.google.com/specimen/Lato');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'https://fonts.google.com/specimen/Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #EDF7FF;
 }
 header{
     width: 100%;
     height: 100vh;
-    background-color: #EDF7FF;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -25,32 +25,83 @@ header .logo{
     align-items: center;
     z-index: 1;
     transform: translateX(40px);
-    left:37%;
-    top:6%;
+    left:38%;
+    top:7%;
 }
 header .icon{
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     margin-right: 8px;
 }
 
 header .background{
     width: 450px;
     height: 450px;
-    opacity: 45%;
+    opacity: 25%;
 }
 
 header .logo-text{
-    font-size: 20px;
-    color: black;
-    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    color: rgb(46, 46, 46);
+    font-family: 'Poppins', sans-serif;
 }
 
 #group-background {
-  margin-top: 40px;
-  margin-left: 200px;
+  margin-top: 30px;
+  margin-left: 140px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+}      
+
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 40px;
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+#navbar li{
+    margin-left:20px;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#navbar a:hover{
+    color:limegreen;
+    transition: 0.2s;
+}
+
+#navigation{
+    margin-top: 59px;
+    margin-left: 600px;
+}
+
+#under-header{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+#under-header #line-box{
+    border: 3px solid limegreen;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 515px;
 }
