@@ -1,3 +1,3 @@
 # Pet_care_Web
 
-# Creators: Vukota & Dusan
+# Creators: Hvitrev & Dusan
